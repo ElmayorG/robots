@@ -1,4 +1,5 @@
 <?php
+/*Creado por Edgar A Olvera */
 for ($i = 0; $i <= 1; $i++){
 $file = file('https://www.indeed.com.mx/jobs?q=medio+tiempo&sort=date&start='.$i*10);
 $encontrado = false;
